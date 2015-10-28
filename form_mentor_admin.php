@@ -96,15 +96,6 @@
         var ass_id = $('#assignment_id').val();
         var data = 'appointment_name=' + appointment_name + '&appointment_type=' + appointment_type + '&time_start=' + time_start + '&time_end=' + time_end + '&user_id_protege=' + user_id_protege + '&user_id_mentor=' + user_id_mentor + '&status='+status+'&assignment_id='+ass_id;
         console.log('createAppointment: ' + data);
-/*
-        $.ajax({
-            url: 'http://modernguild.com/sites/all/modules/guild/mg/meeting_create_cal.php',
-            data: data,
-            type: 'POST',
-            success: function(json) {   
-    //            $('#calendar').fullCalendar('refetchEvents');
-            }
-        })*/
     }
     
     
